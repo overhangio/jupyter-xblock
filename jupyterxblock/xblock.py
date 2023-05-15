@@ -26,7 +26,7 @@ class JupyterXBlock(LtiConsumerXBlock):
     # Jupyter git repo attributes
     nb_git_repo = String(
         display_name=_("Notebook git repository"),
-        help="For example: https://github.com/binder-examples/requirements.git",
+        help="For example: https://github.com/overhangio/jupyter-xblock.git",
         default="",
         scope=Scope.settings,
     )
@@ -38,7 +38,7 @@ class JupyterXBlock(LtiConsumerXBlock):
     nb_git_file = String(
         display_name=_("Notebook file"),
         help="Path relative to the repository root",
-        default="index.ipynb",
+        default="static/notebooks/hello.ipynb",
         scope=Scope.settings,
     )
 

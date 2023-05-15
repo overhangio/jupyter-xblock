@@ -12,7 +12,7 @@ Features:
 
 Here is a screenshot of the Jupyter XBlock in action:
 
-![](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/screenshots/lms.png)
+![](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/static/screenshots/lms.png)
 
 ## Usage
 
@@ -24,7 +24,7 @@ Install this xblock with [Tutor](https://docs.tutor.overhang.io/) (Olive release
 
 In your course "Advanced Settings", add "jupyter" to the "Advanced Module List":
 
-![](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/screenshots/studio-advanced-settings.png)
+![](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/static/screenshots/studio-advanced-settings.png)
 
 ## Configuration
 
