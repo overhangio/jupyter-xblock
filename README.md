@@ -2,8 +2,6 @@
 
 This is an [XBlock](https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/overview/introduction.html) to integrate JupyterHub notebooks to your [Open edX](https://openedx.org) learning management system (LMS).
 
-> ⚠️ THIS IS A WORK-IN_PROGRESS! We expect to release a first stable version sometime in March 2023.
-
 Features:
 
 * Integrate [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) notebooks to the Open edX courseware.
