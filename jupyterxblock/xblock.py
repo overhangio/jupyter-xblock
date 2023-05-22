@@ -32,7 +32,7 @@ class JupyterXBlock(LtiConsumerXBlock):
     )
     nb_git_branch = String(
         display_name=_("Notebook git branch"),
-        default="master",
+        default="main",
         scope=Scope.settings,
     )
     nb_git_file = String(
