@@ -9,7 +9,7 @@ with io.open(os.path.join(here, "README.md"), "rt", encoding="utf8") as f:
 
 setup(
     name="jupyter-xblock",
-    version="15.0.1",
+    version="15.0.2",
     description="Jupyter XBlock for Open edX",
     long_description=readme,
     long_description_content_type="text/markdown",
