@@ -24,7 +24,7 @@ Install this xblock with [Tutor](https://docs.tutor.overhang.io/) (Olive release
 
 In your course "Advanced Settings", add "jupyter" to the "Advanced Module List":
 
-![](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/static/screenshots/studio-advanced-settings.png)
+![Studio advanced module list](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/static/screenshots/studio-advanced-settings.png)
 
 ## Configuration
 
@@ -46,7 +46,9 @@ To define a global LTI passport ID to be used by all Jupyter XBlock instances, a
 
     LTI_DEFAULT_JUPYTER_PASSPORT_ID = "myjupyterhub"
 
-Then, the corresponding passport must be created in the course advanced settings, as described in the [Open edX documentation](https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/lti_component.html#creating-an-lti-passport-string).
+Then, the corresponding passport must be created in the course advanced settings, as described in the [Open edX documentation](https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/lti_component.html#creating-an-lti-passport-string):
+
+![Studio advanced LTI settings](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/static/screenshots/studio-advanced-settings-lti.png)
 
 ## Configuring JupyterHub
 
