@@ -27,12 +27,12 @@ class JupyterXBlock(LtiConsumerXBlock):
     nb_git_repo = String(
         display_name=_("Notebook git repository"),
         help="For example: https://github.com/overhangio/jupyter-xblock.git",
-        default="",
+        default="https://github.com/overhangio/jupyter-xblock.git",
         scope=Scope.settings,
     )
     nb_git_branch = String(
         display_name=_("Notebook git branch"),
-        default="main",
+        default="master",
         scope=Scope.settings,
     )
     nb_git_file = String(
