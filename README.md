@@ -64,7 +64,7 @@ You will have to launch your own JupyterHub cluster separately from Open edX. Yo
 
 ## Troubleshooting
 
-This XBlock was kickstarted by Matthew Brett ([@matthew-brett](https://github.com/matthew-brett)) and funded by a grant from the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/). This project is maintained by Régis Behmo from [Overhang.IO](https://overhang.io). Community support is available from the official [Open edX forum](https://discuss.openedx.org).
+This XBlock was kickstarted by Matthew Brett ([@matthew-brett](https://github.com/matthew-brett)) and funded by a grant from the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/). This project is maintained by Muhammad Hassan Siddiqi from [Edly](https://edly.io). Community support is available from the official [Open edX forum](https://discuss.openedx.org).
 
 ## License
 
