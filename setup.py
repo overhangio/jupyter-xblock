@@ -15,8 +15,8 @@ setup(
     long_description_content_type="text/markdown",
     author="Overhang.IO",
     author_email="contact@overhang.io",
-    maintainer="Overhang.IO",
-    maintainer_email="regis@overhang.io",
+    maintainer="Edly",
+    maintainer_email="mhassan.eeng@gmail.com",
     project_urls={
         "Documentation": "https://github.com/overhangio/jupyter-xblock",
         "Code": "https://github.com/overhangio/jupyter-xblock",
