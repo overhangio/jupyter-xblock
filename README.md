@@ -14,7 +14,7 @@ Here is a screenshot of the Jupyter XBlock in action:
 
 ## Usage
 
-Install this xblock with [Tutor](https://docs.tutor.overhang.io/) (Palm release):
+Install this xblock with [Tutor](https://docs.tutor.overhang.io/) (Quince release):
 
     echo "jupyter-xblock>=15.0.0,<16.0.0" >> "$(tutor config printroot)/env/build/openedx/requirements/private.txt"
     tutor images build openedx
