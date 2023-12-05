@@ -14,12 +14,7 @@ Here is a screenshot of the Jupyter XBlock in action:
 
 ## Usage
 
-Install this xblock with [Tutor](https://docs.tutor.overhang.io/) (Palm release):
-
-    echo "jupyter-xblock>=15.0.0,<16.0.0" >> "$(tutor config printroot)/env/build/openedx/requirements/private.txt"
-    tutor images build openedx
-    tutor local start -d
-
+To use this xblock with [Tutor](https://docs.tutor.overhang.io/), use [Tutor-jupyter](https://github.com/overhangio/tutor-jupyter) plugin as this will automatically be installed with it. 
 In your course "Advanced Settings", add "jupyter" to the "Advanced Module List":
 
 ![Studio advanced module list](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/static/screenshots/studio-advanced-settings.png)
