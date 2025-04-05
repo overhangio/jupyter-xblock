@@ -1,6 +1,6 @@
 # Jupyter XBlock
 
-This is an [XBlock](https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/overview/introduction.html) to integrate JupyterHub notebooks to your [Open edX](https://openedx.org) learning management system (LMS).
+This is an [XBlock](https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/index.html) to integrate JupyterHub notebooks to your [Open edX](https://openedx.org) learning management system (LMS).
 
 Features:
 
@@ -39,7 +39,7 @@ To define a global LTI passport ID to be used by all Jupyter XBlock instances, a
 
     LTI_DEFAULT_JUPYTER_PASSPORT_ID = "myjupyterhub"
 
-Then, the corresponding passport must be created in the course advanced settings, as described in the [Open edX documentation](https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/lti_component.html#creating-an-lti-passport-string):
+Then, the corresponding passport must be created in the course advanced settings, as described in the [Open edX documentation](https://docs.openedx.org/en/latest/educators/how-tos/course_development/exercise_tools/set_up_lti_1_1_component.html#creating-an-lti-passport-string):
 
 ![Studio advanced LTI settings](https://raw.githubusercontent.com/overhangio/jupyter-xblock/main/static/screenshots/studio-advanced-settings-lti.png)
 
