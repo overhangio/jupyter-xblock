@@ -5,7 +5,12 @@ import urllib.parse
 from django.conf import settings
 from lti_consumer.lti_xblock import LtiConsumerXBlock, _
 from xblock.core import Scope, String, XBlock
-from xblockutils.resources import ResourceLoader
+
+try:
+     from xblock.utils.resources import ResourceLoader
+ except ModuleNotFoundError: # For backward compatibility with releases older than Quince.
+     from xblockutils.resources import ResourceLoader
+ 
 
 
 logger = logging.getLogger(__name__)
